@@ -1,3 +1,5 @@
+package Examples;
+
 public class StringToIntUsingForEach {
 
     public static void  main(){
@@ -6,11 +8,9 @@ public class StringToIntUsingForEach {
     int numb=0;
 
         for (char eachChar : str2.toCharArray()){
-
-        numb *= 10;
-        numb += eachChar - '0';
-
-    }
+         numb *= 10;
+         numb += eachChar - '0';
+        }
 
         System.out.println("String in to Number: "+numb);
     }
